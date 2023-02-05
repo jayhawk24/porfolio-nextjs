@@ -71,7 +71,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      'primary': ['Oswald', 'sans-serif'],
+      'head': ['Oswald', 'sans-serif'],
       'body': ["Poppins", 'sans-serif'],
     },
     fontSize: {
