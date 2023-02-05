@@ -25,7 +25,7 @@ module.exports = {
           '900': '#125d67',
         },
         secondary: {
-          DEFAULT: '#5c6d7e',
+          DEFAULT: '#393e46',
           '50': '#f4f6f7',
           '100': '#e3e8ea',
           '200': '#cad2d7',
@@ -38,7 +38,7 @@ module.exports = {
           '900': '#393e46',
         },
         black: {
-          DEFAULT: '#506f8a',
+          DEFAULT: '#222831',
           '50': '#f3f6f8',
           '100': '#e0e8ed',
           '200': '#c4d2dd',
@@ -51,7 +51,7 @@ module.exports = {
           '900': '#222831',
         },
         white: {
-          DEFAULT: '#9a9a9a',
+          DEFAULT: '#eeeeee',
           '50': '#f8f8f8',
           '100': '#eeeeee',
           '200': '#e4e4e4',
@@ -70,6 +70,19 @@ module.exports = {
         yellow: colors.yellow,
       }
     },
+    fontFamily: {
+      'primary': ['Oswald', 'sans-serif'],
+      'body': ["Poppins", 'sans-serif'],
+    },
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+    }
   },
   plugins: [],
 }
